@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin-left: 45%;
+}
+
+#main{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    width: 20%;
+    grid-template-rows: 33% 33% 33%;
+    height: 50vh;
+    margin: auto;
+
+}
