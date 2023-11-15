@@ -1,18 +1,32 @@
-*{
-    margin: 0;
-    padding: 0;
+td{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 800;
+    font-size: 70px;
 }
 
-h1{
-    margin-left: 45%;
+table{
+    border-collapse: collapse;
+    position: absolute;
+    left: 50%;
+    top: 50px;
 }
 
-#main{
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    width: 20%;
-    grid-template-rows: 33% 33% 33%;
-    height: 50vh;
-    margin: auto;
-
+.endgame{
+    display: none;
+    width: 200px;
+    top: 120px;
+    background-color: brown;
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-size: 2em;
 }
